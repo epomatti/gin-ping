@@ -1,5 +1,7 @@
 # GinPing
 
+![Build](https://github.com/epomatti/gin-ping/actions/workflows/go.yml/badge.svg)
+
 A tiny health check library for Gin.
 
 ## How to
