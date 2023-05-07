@@ -1,9 +1,10 @@
 # gin-ping
 
-The tiniest health check library for Gin.
+A tiny health check library for Gin.
+
+How to add it:
 
 ```go
-// One-liner
 ginping.Add(r)
 ```
 
