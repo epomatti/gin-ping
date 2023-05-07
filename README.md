@@ -2,9 +2,8 @@
 
 The tiniest health check library for Gin.
 
-Add health check routes with one line of code:
-
 ```go
+// One-liner
 ginping.Add(r)
 ```
 
@@ -14,14 +13,14 @@ Example:
 package main
 
 import (
-	"github.com/epomatti/gin-ping"
-	"github.com/gin-gonic/gin"
+  "github.com/epomatti/gin-ping"
+  "github.com/gin-gonic/gin"
 )
 
 func main() {
-	r := gin.Default()	
-	ginping.Add(r)
-	r.Run()
+  r := gin.Default()
+  ginping.Add(r)
+  r.Run()
 }
 ```
 
