@@ -1,6 +1,6 @@
 # GinPing
 
-![Build](https://github.com/epomatti/gin-ping/actions/workflows/go.yml/badge.svg)
+![Build](https://github.com/epomatti/gin-ping/actions/workflows/go.yml/badge.svg) [![codecov](https://codecov.io/gh/epomatti/gin-ping/branch/main/graph/badge.svg?token=FNZD2AMY6K)](https://codecov.io/gh/epomatti/gin-ping)
 
 A tiny health check library for [Gin][1].
 
