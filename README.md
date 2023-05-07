@@ -1,8 +1,8 @@
-# gin-ping
+# GinPing
 
 A tiny health check library for Gin.
 
-How to add it:
+### How to
 
 ```go
 ginping.Add(r)
@@ -25,7 +25,7 @@ func main() {
 }
 ```
 
-Testing the health check route:
+Test it:
 
 ```sh
 curl localhost:8080/health
