@@ -11,21 +11,22 @@ ginping.Add(r)
 Example:
 
 ```go
-import "github.com/epomatti/gin-ping"
+package main
+
+import (
+	"github.com/epomatti/gin-ping"
+	"github.com/gin-gonic/gin"
+)
 
 func main() {
-	r := gin.Default()
-
-  // Adds the health check routes
-  ginping.Add(r)
-
+	r := gin.Default()	
+	ginping.Add(r)
 	r.Run()
 }
 ```
 
-Testing it:
+Testing the health check route:
 
 ```sh
-$ curl localhost:8080/health
-OK
+curl localhost:8080/health
 ```
