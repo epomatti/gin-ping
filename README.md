@@ -29,6 +29,6 @@ func main() {
 }
 ```
 
-Testing locally: `curl localhost:8080/health`.
+Testing locally with `curl localhost:8080/health` should return the response `OK`.
 
 [1]: https://github.com/gin-gonic/gin
