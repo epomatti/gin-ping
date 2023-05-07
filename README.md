@@ -4,7 +4,7 @@
 
 GinPing is a small middleware library for [Gin][1] to add health check routes.
 
-## Usage
+## Quick start
 
 To enable a default `/health` route:
 
