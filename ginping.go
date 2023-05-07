@@ -7,8 +7,8 @@ import (
 )
 
 const (
-	route   = "/ping"
-	message = "pong"
+	route   = "/health"
+	message = "OK"
 )
 
 func Add(r *gin.Engine) {

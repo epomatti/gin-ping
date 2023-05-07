@@ -17,12 +17,12 @@ func TestPingGET(t *testing.T) {
 
 	// Act
 	w := httptest.NewRecorder()
-	req, _ := http.NewRequest("GET", "/ping", nil)
+	req, _ := http.NewRequest("GET", "/health", nil)
 	router.ServeHTTP(w, req)
 
 	// Assert
 	assert.Equal(t, 200, w.Code)
-	assert.Equal(t, "pong", w.Body.String())
+	assert.Equal(t, "OK", w.Body.String())
 }
 
 func TestPingHEAD(t *testing.T) {
@@ -32,7 +32,7 @@ func TestPingHEAD(t *testing.T) {
 
 	// Act
 	w := httptest.NewRecorder()
-	req, _ := http.NewRequest("HEAD", "/ping", nil)
+	req, _ := http.NewRequest("HEAD", "/health", nil)
 	router.ServeHTTP(w, req)
 
 	// Assert
