@@ -2,9 +2,11 @@
 
 ![Build](https://github.com/epomatti/gin-ping/actions/workflows/go.yml/badge.svg) [![codecov](https://codecov.io/gh/epomatti/gin-ping/branch/main/graph/badge.svg?token=FNZD2AMY6K)](https://codecov.io/gh/epomatti/gin-ping)
 
-A tiny health check library for [Gin][1].
+GinPing is a small middleware library for [Gin][1] to add health check routes.
 
-## How to
+## Usage
+
+To enable a default `/health` route:
 
 ```go
 ginping.Add(r)
@@ -27,10 +29,6 @@ func main() {
 }
 ```
 
-Test it:
-
-```sh
-curl localhost:8080/health
-```
+Testing locally: `curl localhost:8080/health`.
 
 [1]: https://github.com/gin-gonic/gin
