@@ -2,7 +2,7 @@
 
 ![Build](https://github.com/epomatti/gin-ping/actions/workflows/go.yml/badge.svg)
 
-A tiny health check library for Gin.
+A tiny health check library for [Gin][1].
 
 ## How to
 
@@ -32,3 +32,5 @@ Test it:
 ```sh
 curl localhost:8080/health
 ```
+
+[1]: https://github.com/gin-gonic/gin
