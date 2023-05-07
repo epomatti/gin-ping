@@ -2,7 +2,7 @@
 
 A tiny health check library for Gin.
 
-### How to
+## How to
 
 ```go
 ginping.Add(r)
